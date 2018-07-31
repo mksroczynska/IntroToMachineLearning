@@ -1,0 +1,13 @@
+shape,crust-size,crust-shade,filling-size,filling-shade,class
+circle,thick,gray,thick,dark,pos
+circle,thick,white,thick,dark,pos
+triangle,thick,dark,thick,gray,pos
+circle,thin,white,thin,dark,pos
+square,thick,dark,thin,white,pos
+circle,thick,white,thin,dark,pos
+circle,thick,gray,thick,white,neg
+square,thick,gray,thick,gray,neg
+trinagle,thin,gray,thin,dark,neg
+circle,thick,dark,thick,white,neg
+square,thick,white,thick,dark,neg
+triangle,thick,white,thick,gray,neg
