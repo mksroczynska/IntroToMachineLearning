@@ -6,7 +6,7 @@ circle,thin,white,thin,dark,pos
 square,thick,dark,thin,white,pos
 circle,thick,white,thin,dark,pos
 circle,thick,gray,thick,white,neg
-square,thick,gray,thick,gray,neg
+square,thick,white,thick,gray,neg
 triangle,thin,gray,thin,dark,neg
 circle,thick,dark,thick,white,neg
 square,thick,white,thick,dark,neg
