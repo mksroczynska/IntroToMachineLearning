@@ -12,3 +12,5 @@ The dataset for *pies* domain described in chapter 1 of the book.
 ##### Data: *example1.csv*
 A set consists of six examples, each described by three continuous
 attributes: *at1*, *at2*, *at3*, *class*. 
+##### Data: *wines.csv* 
+The dataset from http://archive.ics.uci.edu/ml/machine-learning-databases/wine/.
