@@ -1,7 +1,5 @@
 import csv
 from math import exp, sqrt, pi
-import matplotlib.pyplot as plt
-import numpy as np
 
 
 def read_csv(filename):
@@ -20,6 +18,7 @@ def possible_values(key, data):
         vals.add(row[key])
     return vals
 
+
 # count how many examples in data are classified asgiven class
 def examples_in_the_class(data, class_value, class_name="class"):
     N = 0
@@ -29,35 +28,8 @@ def examples_in_the_class(data, class_value, class_name="class"):
     return N
 
 
-#
-# # gaussian distribution
-# def gauss(x, mean, variance):
-#     return exp(-(x - mean) ** 2 / (2 * variance)) / sqrt(2 * pi * variance)
-#
-#
-# # returns mean for the values of a given attribute in the class
-# def mean(data, attribute_name, class_value, class_name="class"):
-#     m = 0
-#     N = len(data)
-#     for row in data:
-#         if row[class_name] == class_value:
-#             m += row[attribute_name]
-#     return m / N
-#
-#
-# # returns mean for the values of a given attribute in all classes
-# def variance(data, attribute_name, class_value, class_name='class'):
-#     v = 0
-#     m = mean(data, attribute_name, class_value, class_name)
-#     N = len(data)
-#     for row in data:
-#         if row[class_name] == class_value:
-#             v += (row[attribute_name] - m) ** 2
-#     return v / (N - 1)
-
-
-#p_{ci}(x)
-def p(x, data, attribute_name, class_value,  variance=1):
+# p_{ci}(x)
+def p(x, data, attribute_name, class_value, variance=1):
     total_p = 0
     m = 0
     for row in data:
@@ -81,7 +53,7 @@ def P(key, value, data):
 
 def p_vector(vector, data, class_value):
     pp = 1
-    for k,v in vector.items():
+    for k, v in vector.items():
         pp *= p(float(v), data, k, class_value)
     return pp
 
@@ -103,9 +75,3 @@ print("Possible classes: ", possible_values('class', data))
 v = {'at1': 9, 'at2': 3.6, 'at3': 3.3}
 print("The most probable class for a given example is: ", most_probable_class(v, data))
 
-# x = np.arange(0, 10, 0.1)
-# y = []
-# for val in x:
-#     y.append(p(val, data, 'at1', 'pos'))
-# plt.plot(x, y)
-# plt.show()
