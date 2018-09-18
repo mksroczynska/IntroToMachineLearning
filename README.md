@@ -14,3 +14,8 @@ A set consists of six examples, each described by three continuous
 attributes: *at1*, *at2*, *at3*, *class*. 
 ##### Data: *wines.csv* 
 The dataset from http://archive.ics.uci.edu/ml/machine-learning-databases/wine/.
+####3.1 Nearest neighbours
+Simple classification using nearest neighbours method. Test are performed on 
+the normalized data from *wines.csv*. The dependence between the efficiency
+and number of nearest neighbours taken into account is plotted.
+
