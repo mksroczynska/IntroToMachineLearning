@@ -1,5 +1,5 @@
 ### Intro To Machine Learning
-My solutions of the tasks in the book: Miroslav Kubat *An Introduction to Machine Learning*.
+My solutions of the tasks from the book: Miroslav Kubat *An Introduction to Machine Learning*.
 #### 1.1 Hill climbing for sliding-tile.
 Starting from some random initial state of a sliding-tile trying to obtain a given final state using hill climbing algorithm.
 The evaluation function is set to be the sum of distances of every number from its position in the final state calculated as
