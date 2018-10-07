@@ -14,8 +14,19 @@ A set consists of six examples, each described by three continuous
 attributes: *at1*, *at2*, *at3*, *class*. 
 ##### Data: *wines.csv* 
 The dataset from http://archive.ics.uci.edu/ml/machine-learning-databases/wine/.
-#### 3.1 Nearest neighbours
+#### 3 Nearest neighbours
+##### 3.1 and 3.2
 Simple classification using nearest neighbours method. Test are performed on 
 the normalized data from *wines.csv*. The dependence between the efficiency
 and number of nearest neighbours taken into account is plotted.
+##### 3.3
+Another test is 
+done on a synthetic domain of points, where each is described by two continuous 
+attributes, $x$ and $y \in \[0,1\]$. The points are classified as *pos* if they 
+are inside a circle of some arbitrary radius, and *neg* otherwise. 
+For some amount of randomly chosen points, the names are swapped and thus, the noise
+is introduced. The plots show how well the $k$-NN method works for such cases.
+##### 3.4 
+It is useful to try to minimize the noise. This is done with Tomek-links method.
+
 
