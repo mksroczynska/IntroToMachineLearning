@@ -30,11 +30,11 @@ is introduced. The plots show how well the *k*-NN method works for such cases.
 It is useful to try to minimize the noise. This is done with Tomek-links method.
 #### 4. Linear and polynomial classifiers.
 *To be done*
-####5. Artificial neural networks.
+#### 5. Artificial neural networks.
 *To be done*
 #### 6. Decision trees as classifiers
-#####6.1 Induction of decision trees.
-#####6.2 Pruning mechanism.
-#####6.3 Computational time of induction.
+##### 6.1 Induction of decision trees.
+##### 6.2 Pruning mechanism.
+##### 6.3 Computational time of induction.
 
 
