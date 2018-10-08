@@ -28,5 +28,9 @@ For some amount of randomly chosen points, the names are swapped and thus, the n
 is introduced. The plots show how well the *k*-NN method works for such cases.
 ##### 3.4 
 It is useful to try to minimize the noise. This is done with Tomek-links method.
+#### 6. Decision trees as classifiers
+#####6.1 Induction of decision trees.
+#####6.2 Pruning mechanism.
+#####6.3 Computational time of induction.
 
 
